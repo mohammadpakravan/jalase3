@@ -1,5 +1,5 @@
 fun main() {
-    val st_wellcome: String = "hi please inter your name"
+    val st_wellcome: String = "hi please enter your name"
     println(st_wellcome)
 
     val name = readln()
@@ -21,11 +21,10 @@ fun main() {
             println("عامو چه خبره... مگه توش موزه...")
         }
 
-
         } else if (st_ask == "n") {
-                println("برو درت‌و بذار کونده موز هم تو رو دوس نداره...")
+                println("برو درت‌ رو بذار کونده! موز هم تو رو دوس نداره...")
         } else {
-            println("کص مغز درست وارد کن فارسی نوشتم بفهمی")
+            println(" کص مغز درست وارد کن. بیا فارسی نوشتم بفهمی یا کلاً نفهمی؟! خدافظ نفهم")
         }
 
     }

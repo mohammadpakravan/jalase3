@@ -9,10 +9,10 @@ if (num >= 0 ){
     }
 }
 
-// if and else if and else
+// "if" and "else if" and "else"
 val num2 = readln().toInt()
 
-if ((num2 % 2) == 0){    println("bakhsh pazire bw 2")
+if ((num2 % 2) == 0){  println("bakhsh pazire bw 2")
 }
 else if ((num2 % 3) == 0){
     println("bakhsh pazire bw 3")
